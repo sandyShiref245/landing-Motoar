@@ -1,0 +1,755 @@
+::-webkit-scrollbar {
+    background-color: none;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #eb6100;
+    border-radius: 10PX;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafb;
+}
+
+.row {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.container {
+    width: 85%;
+}
+
+
+/*start menu*/
+
+.menu {
+    margin-bottom: 56px;
+    margin-top: 10px;
+}
+
+.menu .container {
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.03);
+    background-color: #ffffff;
+}
+
+.menu .logo {
+    padding-top: 10px;
+}
+
+.menu .logo img {
+    width: 28.5px;
+    height: 28.5px;
+    margin-left: 54px;
+}
+
+.menu .logo p {
+    display: inline-block;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #44444f;
+    margin-left: 9.1px;
+}
+
+nav {
+    padding: 10px 0 !important;
+}
+
+.bg-light {
+    background-color: #fff !important
+}
+
+.navbar-nav {
+    margin-right: 60px;
+}
+
+.navbar-expand-lg .navbar-nav .active a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2.29;
+    text-align: left;
+    color: #202124 !important;
+    padding: 0 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2.29;
+    text-align: left;
+    color: #d4d3d3 !important;
+    border-right: 1px solid #ededed;
+    text-transform: capitalize;
+    padding: 0 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item:last-of-type a {
+    border-right: 0 !important;
+}
+
+.navbar-nav button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 100px;
+    background-color: #f2752e;
+    border: 0;
+    padding: 3px 20px;
+    text-transform: capitalize;
+}
+
+.navbar-nav button:hover {
+    background-color: #f2752e
+}
+
+
+/*about*/
+
+.about .container {
+    background-color: #ffffff;
+}
+
+.about .container .content {
+    padding-left: 70px
+}
+
+.about .container .content h1 {
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.3;
+    color: #202124;
+    margin-bottom: 60px;
+}
+
+.about .container .content h1::after {
+    background: black;
+    top: 243px;
+    content: "";
+    height: 1px;
+    left: 94%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 17%;
+}
+
+.about .container .content p {
+    font-family: 'Domine';
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: left;
+    color: #202124;
+    border-left: 5px solid #f2752e;
+    padding-left: 15px;
+}
+
+.about .container .content button {
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: #f2752e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 60px 70px;
+    font-weight: bold;
+    line-height: 1.22;
+    position: absolute;
+    z-index: 10;
+}
+
+.about .container .content button:hover {
+    border: 0;
+    outline: 0;
+}
+
+.about .container .content button::before {
+    background: #f2752e;
+    content: "";
+    height: 3px;
+    left: -45px;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 50px;
+    z-index: 48;
+    top: 25px;
+}
+
+
+/*about pic*/
+
+.about .container .col-lg-5 {
+    padding: 0;
+}
+
+.about .content .overlay {
+    position: absolute;
+    left: -85px;
+    width: 665px;
+    height: 250px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.69);
+    left: 0;
+    bottom: 0px;
+}
+
+.about .content .picture {
+    position: relative;
+    left: -85px;
+    width: 665px;
+    height: 250px;
+    bottom: 0px;
+}
+
+.about .content .picture img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.about .container .pic {
+    position: relative;
+    height: 650px;
+}
+
+.about .container .pic img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.about .container .pic h3 {
+    position: absolute;
+    top: 33%;
+    left: 76px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+}
+
+.about .container .pic h3::before {
+    background: #fff;
+    top: 27px;
+    content: "";
+    height: 1px;
+    right: 94%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 17%;
+}
+
+.about .container .icons {
+    position: absolute;
+    bottom: 30px;
+    right: 65px;
+}
+
+.about .container .icons::before {
+    background: rgba(172, 172, 172, 0.8);
+    content: "";
+    height: 1px;
+    left: -23px;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 38px;
+    top: 11px;
+}
+
+.about .container .icons i {
+    width: 16px;
+    height: 13px;
+    color: rgba(172, 172, 172, 0.8);
+    margin-left: 18px;
+}
+
+
+/*services*/
+
+.services,
+.portfolio,
+.contact {
+    margin-top: 150px
+}
+
+.services .container {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 50px 35px;
+}
+
+.services h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    line-height: 1.39;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.services .container .image {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.services .container .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.services .description {
+    padding: 0 12px;
+}
+
+.services .container .description h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 1.55;
+    text-align: left;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.services .container .description p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    height: 60px;
+    overflow: hidden;
+}
+
+.services .container .description button {
+    width: 125px;
+    height: 39px;
+    border: solid 1px #f2752e;
+    background: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    color: #f2752e;
+    margin-bottom: 54px;
+    padding: 5px;
+    margin-right: 35px;
+}
+
+
+/*start portfolio*/
+
+.portfolio h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    line-height: 1.39;
+    text-align: center;
+    color: #000000;
+    margin: 25px 0;
+}
+
+.portfolio .row .col-md-12:first-of-type span {
+    position: absolute;
+    width: 104px;
+    margin-left: calc(50% - 52px);
+    bottom: -14px;
+    height: 5px;
+    border-radius: 181px;
+    background-color: #7a7a7a;
+    left: 0;
+}
+
+.portfolio .links {
+    margin-top: 20px;
+}
+
+.portfolio .links button {
+    background: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000000;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: left;
+    border-bottom: 3px solid rgba(235, 97, 0, 0.08);
+    padding: 0 40px 20px;
+    cursor: pointer;
+}
+
+.portfolio .links button:first-of-type {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: left;
+    color: #eb6100;
+    border-bottom: 3px solid #eb6100;
+}
+
+.portfolio .links button:hover {
+    color: #eb6100;
+}
+
+.portfolio .fillter {
+    margin-top: 30px;
+}
+
+.portfolio .fillter .col-md-3 {
+    margin-bottom: 30px;
+    transition: all 1s ease-in-out;
+}
+
+.fillter img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.portfolio .fillter .col-md-3 div div {
+    display: none;
+    position: absolute;
+    top: 0px;
+    margin: 4px;
+    width: 87%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.portfolio .fillter .col-md-3 div div i {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    color: #3071ff;
+    border-radius: 50%;
+    line-height: 3;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 133px;
+    z-index: 1;
+}
+
+.portfolio .fillter .col-md-3 div div .circle {
+    position: absolute;
+    top: 40px;
+    left: 114px;
+    width: 42px;
+    height: 43px;
+    box-shadow: 0 6px 20px 0 rgba(48, 113, 255, 0.3);
+    background-color: #3071ff;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.portfolio .fillter .col-md-3 div div h6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.56;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    bottom: 47px;
+    right: 55px;
+}
+
+.portfolio .fillter .col-md-3 div div ul {
+    position: absolute;
+    display: inline-flex;
+    bottom: 10px;
+    right: 20px;
+}
+
+.portfolio .fillter .col-md-3 div div ul li:first-child {
+    list-style-type: none;
+}
+
+.portfolio .fillter .col-md-3 div div ul li {
+    margin-right: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11px;
+    line-height: 1.55;
+    text-align: left;
+    color: #555555;
+}
+
+.portfolio .fillter .col-md-3:hover div div {
+    display: block;
+}
+
+.portfolio .container .col-md-12 button {
+    display: block;
+    margin: auto;
+    width: 132px;
+    height: 44px;
+    background-color: #f2752e;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 2.6;
+    border: 0;
+    color: #ffffff;
+}
+
+
+/*end portfolio*/
+
+
+/*contact us*/
+
+.contact .container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contact .container .info {
+    padding: 46px 0 49px 35px;
+    margin-right: 75px;
+}
+
+.contact .container .col-lg-6,
+.contact .container .col-lg-12 {
+    padding-right: 0;
+}
+
+.contact .container .info p {
+    padding-top: 46px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    color: #323232;
+}
+
+.contact .container .info h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 39px;
+    font-weight: bold;
+    line-height: 1.38;
+    color: #323232;
+    margin-bottom: 60px;
+}
+
+.contact .container .info span {
+    position: absolute;
+    width: 30px;
+    margin-left: calc(50% - 52px);
+    bottom: 40px;
+    height: 1px;
+    /* border-radius: 181px; */
+    background-color: #7a7a7a;
+    left: -170px;
+}
+
+.contact .container .pic {
+    position: relative;
+    height: 100%;
+}
+
+.contact .container .pic img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .container .info-item {
+    padding: 0 0 49px 35px;
+}
+
+.contact .container .item {
+    border: 2px solid rgba(235, 97, 0, 0.2);
+    padding: 8px 14px;
+    margin-bottom: 20px;
+}
+
+.contact .container .item i {
+    font-size: 10px;
+    color: rgba(38, 38, 38, 0.5);
+    display: inline-block;
+}
+
+.contact .container .item input {
+    border: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    line-height: 23px;
+    color: rgba(38, 38, 38, 0.5);
+    padding: 0 10px;
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: capitalize;
+}
+
+.contact .container .col-lg-12 .item {
+    display: flex
+}
+
+.contact .container .col-lg-12 i {
+    margin-top: 5px;
+    margin-right: 7px;
+}
+
+.contact .container .item textarea {
+    outline: 0;
+    border: 0;
+    color: rgba(38, 38, 38, 0.5);
+    display: inline-block;
+    font-size: 10px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.contact .container button {
+    background-color: #f2752e;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    width: 117px;
+    height: 42px;
+    margin-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    line-height: 2.6;
+    text-transform: uppercase;
+}
+
+
+/*start footer*/
+
+footer .container {
+    margin-top: 100px;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.03);
+    background-color: #ffffff;
+    padding: 40px 35px 0;
+}
+
+footer .logo {
+    margin-left: 54px;
+}
+
+footer .logo img {
+    width: 28.5px;
+    height: 28.5px;
+}
+
+footer .logo .motawer {
+    display: inline-block;
+    height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #44444f;
+    margin-left: 9.1px;
+    margin-top: 0 !important
+}
+
+footer .logo p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.57;
+    text-align: left;
+    color: #000000;
+    margin-top: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 2.5;
+    text-align: left;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+footer ul .fab {
+    color: #acacac;
+    margin-right: 10px
+}
+
+footer .col-lg-12 {
+    margin-top: 40px;
+}
+
+footer .copyright p:first-child {
+    margin-top: 0 !important;
+}
+
+footer .copyright p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgba(172, 172, 172, 0.5);
+    margin-top: 10px;
+    border-top: 1px solid;
+    padding-top: 1rem;
+}
+
+
+/*responsive*/
+
+@media only screen and (max-width: 992px) {
+    .menu .logo img {
+        margin-left: 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        border-right: 0
+    }
+    .about .container .content {
+        padding: 0;
+    }
+    .about .container .content h1::after {
+        width: 0
+    }
+    .about .container .content button::before {
+        width: 0;
+    }
+    .about .container .pic h3 {
+        left: 0px;
+        padding: 0 20px;
+    }
+    .services .container .image {
+        margin: auto;
+    }
+    .services .container .description h3,
+    .services .container .description p {
+        text-align: center
+    }
+    .services .container .description button {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .portfolio .links button {
+        padding: 0 9px 20px;
+    }
+    .portfolio .fillter .col-md-3 div div {
+        width: 89%;
+        height: 96%;
+    }
+    footer .logo {
+        margin-left: 0;
+    }
+}
